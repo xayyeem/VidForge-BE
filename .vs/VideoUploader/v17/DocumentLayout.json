@@ -1,0 +1,388 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D53621E5-80E8-4299-9F6E-831E730E2EA1}|Worker\\VideoUploadSystem.Worker.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D53621E5-80E8-4299-9F6E-831E730E2EA1}|Worker\\VideoUploadSystem.Worker.csproj|solutionrelative:worker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.api\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|solutionrelative:videouploadsystem.api\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|solutionrelative:videouploadsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.application\\interfaces\\imessagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|solutionrelative:videouploadsystem.application\\interfaces\\imessagepublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|solutionrelative:videouploadsystem.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53621E5-80E8-4299-9F6E-831E730E2EA1}|Worker\\VideoUploadSystem.Worker.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53621E5-80E8-4299-9F6E-831E730E2EA1}|Worker\\VideoUploadSystem.Worker.csproj|solutionrelative:worker\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.domain\\enums\\videostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|solutionrelative:videouploadsystem.domain\\enums\\videostatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|solutionrelative:videouploadsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D53621E5-80E8-4299-9F6E-831E730E2EA1}|Worker\\VideoUploadSystem.Worker.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D53621E5-80E8-4299-9F6E-831E730E2EA1}|Worker\\VideoUploadSystem.Worker.csproj|solutionrelative:worker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|solutionrelative:videouploadsystem.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.domain\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|solutionrelative:videouploadsystem.domain\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.infrastructure\\messaging\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|solutionrelative:videouploadsystem.infrastructure\\messaging\\rabbitmqpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.api\\services\\rabbitmqproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|solutionrelative:videouploadsystem.api\\services\\rabbitmqproducer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.application\\messages\\videouploadedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|solutionrelative:videouploadsystem.application\\messages\\videouploadedmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.infrastructure\\storage\\localvideostorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|solutionrelative:videouploadsystem.infrastructure\\storage\\localvideostorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.domain\\enums\\sortingenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|solutionrelative:videouploadsystem.domain\\enums\\sortingenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.api\\models\\uploadvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A4D984-04B9-4D32-A512-8C7BC65750A1}|VideoUploadSystem.API\\VideoUploadSystem.API.csproj|solutionrelative:videouploadsystem.api\\models\\uploadvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.application\\interfaces\\ivideostorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|solutionrelative:videouploadsystem.application\\interfaces\\ivideostorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.application\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|solutionrelative:videouploadsystem.application\\services\\videoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABA485BF-3851-413F-94AD-C58326F8B86F}|VideoUploadSystem.Infrastructure\\VideoUploadSystem.Infrastructure.csproj|solutionrelative:videouploadsystem.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2176B506-4061-41C7-A7FF-E841676E63F3}|VideoUploadSystem.Application\\VideoUploadSystem.Application.csproj|solutionrelative:videouploadsystem.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|c:\\users\\khalid jafri\\desktop\\video\\videouploader\\videouploadsystem.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5E02943-E77E-4BF3-9C70-4E8DCC938C9C}|VideoUploadSystem.Domain\\VideoUploadSystem.Domain.csproj|solutionrelative:videouploadsystem.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Program.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Program.cs",
+              "RelativeToolTip": "VideoUploadSystem.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:29:34.483Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\Worker\\Program.cs",
+              "RelativeDocumentMoniker": "Worker\\Program.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\Worker\\Program.cs",
+              "RelativeToolTip": "Worker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T15:03:41.361Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "VideoUploadSystem.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T18:48:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\Worker\\appsettings.json",
+              "RelativeDocumentMoniker": "Worker\\appsettings.json",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\Worker\\appsettings.json",
+              "RelativeToolTip": "Worker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-20T18:23:59.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\Worker\\Worker.cs",
+              "RelativeDocumentMoniker": "Worker\\Worker.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\Worker\\Worker.cs",
+              "RelativeToolTip": "Worker\\Worker.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAUwIgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T15:01:41.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RabbitMqPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Messaging\\RabbitMqPublisher.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Infrastructure\\Messaging\\RabbitMqPublisher.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Messaging\\RabbitMqPublisher.cs",
+              "RelativeToolTip": "VideoUploadSystem.Infrastructure\\Messaging\\RabbitMqPublisher.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAtwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T18:06:39.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VideoUploadedMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Messages\\VideoUploadedMessage.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Application\\Messages\\VideoUploadedMessage.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Messages\\VideoUploadedMessage.cs",
+              "RelativeToolTip": "VideoUploadSystem.Application\\Messages\\VideoUploadedMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T18:05:08.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMessagePublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Interfaces\\IMessagePublisher.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Application\\Interfaces\\IMessagePublisher.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Interfaces\\IMessagePublisher.cs",
+              "RelativeToolTip": "VideoUploadSystem.Application\\Interfaces\\IMessagePublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-23T18:04:23.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RabbitMqProducer.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Services\\RabbitMqProducer.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.API\\Services\\RabbitMqProducer.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Services\\RabbitMqProducer.cs",
+              "RelativeToolTip": "VideoUploadSystem.API\\Services\\RabbitMqProducer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T18:19:00.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SortingEnum.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Enums\\SortingEnum.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Domain\\Enums\\SortingEnum.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Enums\\SortingEnum.cs",
+              "RelativeToolTip": "VideoUploadSystem.Domain\\Enums\\SortingEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T22:09:38.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VideoService.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Services\\VideoService.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Application\\Services\\VideoService.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Services\\VideoService.cs",
+              "RelativeToolTip": "VideoUploadSystem.Application\\Services\\VideoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:29:23.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UploadVideoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Models\\UploadVideoRequest.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.API\\Models\\UploadVideoRequest.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Models\\UploadVideoRequest.cs",
+              "RelativeToolTip": "VideoUploadSystem.API\\Models\\UploadVideoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:25:50.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LocalVideoStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Storage\\LocalVideoStorageService.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Infrastructure\\Storage\\LocalVideoStorageService.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Storage\\LocalVideoStorageService.cs",
+              "RelativeToolTip": "VideoUploadSystem.Infrastructure\\Storage\\LocalVideoStorageService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwBoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:05:50.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IVideoStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Interfaces\\IVideoStorageService.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Application\\Interfaces\\IVideoStorageService.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Interfaces\\IVideoStorageService.cs",
+              "RelativeToolTip": "VideoUploadSystem.Application\\Interfaces\\IVideoStorageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:03:56.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideosController.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Controllers\\VideosController.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.API\\Controllers\\VideosController.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\Controllers\\VideosController.cs",
+              "RelativeToolTip": "VideoUploadSystem.API\\Controllers\\VideosController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAgwIgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:43:38.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "VideoUploadSystem.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.API\\appsettings.json",
+              "RelativeToolTip": "VideoUploadSystem.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-19T12:29:19.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "VideoUploadSystem.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:28:50.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VideoStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Enums\\VideoStatus.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Domain\\Enums\\VideoStatus.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Enums\\VideoStatus.cs",
+              "RelativeToolTip": "VideoUploadSystem.Domain\\Enums\\VideoStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:28:20.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Video.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Entities\\Video.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Domain\\Entities\\Video.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Entities\\Video.cs",
+              "RelativeToolTip": "VideoUploadSystem.Domain\\Entities\\Video.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvx4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:28:02.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "VideoUploadSystem.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:22:28.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Application\\Class1.cs",
+              "RelativeToolTip": "VideoUploadSystem.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:21:28.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "VideoUploadSystem.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Domain\\Class1.cs",
+              "RelativeToolTip": "VideoUploadSystem.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T12:21:07.436Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

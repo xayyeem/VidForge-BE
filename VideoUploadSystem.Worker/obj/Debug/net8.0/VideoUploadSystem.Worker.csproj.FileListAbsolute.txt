@@ -1,0 +1,5 @@
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Worker\obj\Debug\net8.0\VideoUploadSystem.Worker.csproj.AssemblyReference.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Worker\obj\Debug\net8.0\VideoUploadSystem.Worker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Worker\obj\Debug\net8.0\VideoUploadSystem.Worker.AssemblyInfoInputs.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Worker\obj\Debug\net8.0\VideoUploadSystem.Worker.AssemblyInfo.cs
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Worker\obj\Debug\net8.0\VideoUploadSystem.Worker.csproj.CoreCompileInputs.cache

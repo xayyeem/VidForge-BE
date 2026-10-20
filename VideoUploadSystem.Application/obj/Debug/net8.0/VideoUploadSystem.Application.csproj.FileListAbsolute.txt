@@ -1,0 +1,15 @@
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\bin\Debug\net8.0\VideoUploadSystem.Application.deps.json
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\bin\Debug\net8.0\VideoUploadSystem.Application.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\bin\Debug\net8.0\VideoUploadSystem.Application.pdb
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\bin\Debug\net8.0\VideoUploadSystem.Domain.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\bin\Debug\net8.0\VideoUploadSystem.Domain.pdb
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.csproj.AssemblyReference.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.AssemblyInfoInputs.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.AssemblyInfo.cs
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUpl.EDF10A07.Up2Date
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\refint\VideoUploadSystem.Application.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\VideoUploadSystem.Application.pdb
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Application\obj\Debug\net8.0\ref\VideoUploadSystem.Application.dll

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "D8pcqhWgh8I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Khalid Jafri\\Desktop\\video\\VideoUploader\\VideoUploadSystem.Worker\\VideoUploadSystem.Worker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.13\\microsoft.aspnetcore.http.abstractions.2.3.13.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.12\\microsoft.aspnetcore.http.features.2.3.12.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\7.0.0\\microsoft.extensions.hosting.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\rabbitmq.client\\7.0.0\\rabbitmq.client.7.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\Khalid Jafri\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

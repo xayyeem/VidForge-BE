@@ -1,0 +1,11 @@
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\bin\Debug\net8.0\VideoUploadSystem.Domain.deps.json
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\bin\Debug\net8.0\VideoUploadSystem.Domain.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\bin\Debug\net8.0\VideoUploadSystem.Domain.pdb
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\VideoUploadSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\VideoUploadSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\VideoUploadSystem.Domain.AssemblyInfo.cs
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\VideoUploadSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\VideoUploadSystem.Domain.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\refint\VideoUploadSystem.Domain.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\VideoUploadSystem.Domain.pdb
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Domain\obj\Debug\net8.0\ref\VideoUploadSystem.Domain.dll

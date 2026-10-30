@@ -7,6 +7,7 @@ using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
 using System.Text.Json;
+using VideoUploadSystem.Application.Interfaces;
 using VideoUploadSystem.Application.Messages;
 using VideoUploadSystem.Domain.Enums;
 using VideoUploadSystem.Infrastructure.Data;
@@ -108,10 +109,43 @@ namespace VideoUploadSystem.Worker
                     // TODO:
                     // Yahan FFmpeg processing, duration extraction
                     // aur thumbnail generation add karenge.
+                    var videoProcessor = scope.ServiceProvider.GetRequiredService<IVideoProcessingService>();
 
+                    try
+                    {
+                        // Video ki duration aur thumbnail generate karo.
+                        var result = await videoProcessor.ProcessAsync(video.Id, video.StoragePath, stoppingToken);
+
+                        video.DurationSeconds = result.DurationSeconds;
+                        video.ThumbnailPath = result.ThumbnailPath;
+                        video.Status = VideoStatus.Ready;
+                        video.UpdatedAt = DateTime.UtcNow;
+
+                        await dbContext.SaveChangesAsync(stoppingToken);
+
+                        _logger.LogInformation("Video {VideoId} is Ready. Duration: {Duration}s, Thumbnail: {ThumbnailPath}", video.Id, result.DurationSeconds, result.ThumbnailPath);
+                    }
+                    catch (OperationCanceledException) when (stoppingToken.IsCancellationRequested)
+                    {
+                        throw;
+                    }
+                    catch (Exception ex)
+                    {
+                        _logger.LogError(ex, "Video processing failed for {VideoId}", video.Id);
+
+                        video.Status = VideoStatus.Failed;
+                        video.UpdatedAt = DateTime.UtcNow;
+
+                        await dbContext.SaveChangesAsync(stoppingToken);
+
+                        _logger.LogWarning("Video {VideoId} marked as Failed.", video.Id);
+                    }
+
+                    // Processing complete ya failure database mein save hone ke baad ACK.
+                    await channel.BasicAckAsync(args.DeliveryTag, multiple: false);
                     // Is milestone mein processing start hone ka
                     // status save hone ke baad message ACK kar rahe hain.
-                    await channel.BasicAckAsync(args.DeliveryTag,multiple: false);
+                    //await channel.BasicAckAsync(args.DeliveryTag,multiple: false);
                 }
                 catch (OperationCanceledException)
                     when (stoppingToken.IsCancellationRequested)

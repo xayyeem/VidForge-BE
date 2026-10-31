@@ -1,6 +1,54 @@
 [
   {
     "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
+    "Method": "GetVideoById",
+    "RelativePath": "api/Videos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
+    "Method": "StreamVideo",
+    "RelativePath": "api/Videos/{id}/stream",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
+    "Method": "GetThumbnail",
+    "RelativePath": "api/Videos/{id}/thumbnail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
     "Method": "Get",
     "RelativePath": "api/Videos/getvideos",
     "HttpMethod": "GET",

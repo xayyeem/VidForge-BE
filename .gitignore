@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.vsidx
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

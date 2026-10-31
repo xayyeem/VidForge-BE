@@ -136,6 +136,7 @@ C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debu
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\VideoUploadSystem.API.csproj.CoreCompileInputs.cache
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\VideoUploadSystem.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\VideoUploadSystem.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\VideoUploadSystem.API.sourcelink.json
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
@@ -151,3 +152,5 @@ C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debu
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\VideoUploadSystem.API.pdb
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\VideoUploadSystem.API.genruntimeconfig.cache
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\obj\Debug\net8.0\ref\VideoUploadSystem.API.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.API\bin\Debug\net8.0\Newtonsoft.Json.dll

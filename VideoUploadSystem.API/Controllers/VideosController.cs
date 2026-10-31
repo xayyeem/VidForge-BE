@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Threading;
 using VideoUploadSystem.API.Models;
 using VideoUploadSystem.Application.Interfaces;
 using VideoUploadSystem.Application.Messages;
@@ -36,28 +37,49 @@ namespace VideoUploadSystem.API.Controllers
         }
         [HttpGet]
         [Route("getvideos")]
-        public IActionResult Get([FromQuery] string sort = "NewestFirst")
+        public async Task<IActionResult> Get([FromQuery] string sort = "NewestFirst", CancellationToken cancellationToken = default)
         {
-            var videos = _context.Videos.ToList();
+            IQueryable<Video> query = _context.Videos.AsNoTracking();
 
             switch (sort)
             {
                 case nameof(SortingEnum.NewestFirst):
-                    videos = videos.OrderByDescending(v => v.CreatedAt).ToList();
+                    query = query.OrderByDescending(v => v.CreatedAt);
                     break;
 
                 case nameof(SortingEnum.OldestFirst):
-                    videos = videos.OrderBy(v => v.CreatedAt).ToList();
+                    query = query.OrderBy(v => v.CreatedAt);
                     break;
 
                 case nameof(SortingEnum.Name):
-                    videos = videos.OrderBy(v => v.Title).ToList();
+                    query = query.OrderBy(v => v.Title);
                     break;
 
                 default:
-                    videos = videos.OrderByDescending(v => v.CreatedAt).ToList();
+                    query = query.OrderByDescending(v => v.CreatedAt);
                     break;
             }
+
+            var videos = await query
+                .Select(v => new VideoResponseDto
+                {
+                    Id = v.Id,
+                    Title = v.Title,
+                    Description = v.Description,
+                    OriginalFileName = v.OriginalFileName,
+                    ContentType = v.ContentType,
+                    FileSize = v.FileSize,
+                    DurationSeconds = v.DurationSeconds,
+                    Status = v.Status,
+                    CreatedAt = v.CreatedAt,
+
+                    ThumbnailUrl = v.Status == VideoStatus.Ready
+                        ? $"/api/videos/{v.Id}/thumbnail"
+                        : null,
+
+                    StreamUrl = $"/api/videos/{v.Id}/stream"
+                })
+                .ToListAsync(cancellationToken);
 
             return Ok(videos);
         }
@@ -142,6 +164,82 @@ namespace VideoUploadSystem.API.Controllers
             await _publisher.PublishAsync(message, "video-processing");
 
             return Ok("Message sent");
+        }
+
+        [HttpGet("{id:guid}/thumbnail")]
+        public async Task<IActionResult> GetThumbnail(Guid id, CancellationToken cancellationToken)
+        {
+            var video = await _context.Videos
+                .AsNoTracking()
+                .FirstOrDefaultAsync(v => v.Id == id, cancellationToken);
+
+            if (video == null)
+                return NotFound("Video not found.");
+
+            if (video.Status != VideoStatus.Ready)
+                return Conflict("Video is not ready yet.");
+
+            if (string.IsNullOrWhiteSpace(video.ThumbnailPath) || !System.IO.File.Exists(video.ThumbnailPath))
+            {
+                return NotFound("Thumbnail not found.");
+            }
+
+            return PhysicalFile(video.ThumbnailPath, "image/jpeg");
+        }
+
+        [HttpGet("{id:guid}/stream")]
+        public async Task<IActionResult> StreamVideo(Guid id, CancellationToken cancellationToken)
+        {
+            var video = await _context.Videos
+                .AsNoTracking()
+                .FirstOrDefaultAsync(v => v.Id == id, cancellationToken);
+
+            if (video == null)
+                return NotFound("Video not found.");
+
+            if (video.Status != VideoStatus.Ready)
+                return Conflict("Video is not ready for streaming.");
+
+            if (string.IsNullOrWhiteSpace(video.StoragePath) || !System.IO.File.Exists(video.StoragePath))
+            {
+                return NotFound("Video file not found.");
+            }
+
+            var contentType = string.IsNullOrWhiteSpace(video.ContentType)
+                ? "application/octet-stream"
+                : video.ContentType;
+
+            return PhysicalFile(video.StoragePath, contentType, enableRangeProcessing: true);
+        }
+
+        [HttpGet("{id:guid}")]
+        public async Task<IActionResult> GetVideoById(Guid id, CancellationToken cancellationToken)
+        {
+            var video = await _context.Videos
+                .AsNoTracking()
+                .Where(v => v.Id == id)
+                .Select(v => new VideoResponseDto
+                {
+                    Id = v.Id,
+                    Title = v.Title,
+                    Description = v.Description,
+                    OriginalFileName = v.OriginalFileName,
+                    ContentType = v.ContentType,
+                    FileSize = v.FileSize,
+                    DurationSeconds = v.DurationSeconds,
+                    Status = v.Status,
+                    CreatedAt = v.CreatedAt,
+                    ThumbnailUrl = v.Status == VideoStatus.Ready
+                        ? $"/api/videos/{v.Id}/thumbnail"
+                        : null,
+                    StreamUrl = $"/api/videos/{v.Id}/stream"
+                })
+                .FirstOrDefaultAsync(cancellationToken);
+
+            if (video == null)
+                return NotFound("Video not found.");
+
+            return Ok(video);
         }
     }
 }

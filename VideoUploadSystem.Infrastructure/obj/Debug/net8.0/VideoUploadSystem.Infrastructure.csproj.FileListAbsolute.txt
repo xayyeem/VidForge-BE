@@ -11,6 +11,7 @@ C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructu
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\VideoUploadSystem.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\VideoUploadSystem.Infrastructure.AssemblyInfo.cs
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\VideoUploadSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\VideoUploadSystem.Infrastructure.sourcelink.json
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\VideoUpl.BCFA26B4.Up2Date
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\VideoUploadSystem.Infrastructure.dll
 C:\Users\Khalid Jafri\Desktop\video\VideoUploader\VideoUploadSystem.Infrastructure\obj\Debug\net8.0\refint\VideoUploadSystem.Infrastructure.dll

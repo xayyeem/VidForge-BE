@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoUploadSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a59c473c472faadc8e69cf1b279568e122df41f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f865919a52a7433de4d5951f7417a844437dfc9")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoUploadSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoUploadSystem.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

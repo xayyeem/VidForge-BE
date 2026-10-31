@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "VideoUploadSystem.API.Controllers.ThumbnailsController",
+    "Method": "GenerateThumbnail",
+    "RelativePath": "api/Thumbnails/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "VideoUploadSystem.Application.DTOs.GenerateThumbnailRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
     "Method": "GetVideoById",
     "RelativePath": "api/Videos/{id}",
@@ -49,6 +65,22 @@
   },
   {
     "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
+    "Method": "Delete",
+    "RelativePath": "api/Videos/DeleteVideos",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VideoId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoUploadSystem.API.Controllers.VideosController",
     "Method": "Get",
     "RelativePath": "api/Videos/getvideos",
     "HttpMethod": "GET",
@@ -57,6 +89,11 @@
     "Parameters": [
       {
         "Name": "sort",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -94,6 +131,16 @@
       {
         "Name": "Title",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Thumbnail",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "GeneratedThumbnailId",
+        "Type": "System.Nullable\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {

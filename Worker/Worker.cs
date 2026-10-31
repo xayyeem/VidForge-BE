@@ -114,9 +114,14 @@ namespace VideoUploadSystem.Worker
                     try
                     {
                         // Video ki duration aur thumbnail generate karo.
-                        var result = await videoProcessor.ProcessAsync(video.Id, video.StoragePath, stoppingToken);
+                        var existingThumbnailPath = video.ThumbnailPath;
+                        var result = await videoProcessor.ProcessAsync(video.Id, video.StoragePath, existingThumbnailPath, stoppingToken);
 
                         video.DurationSeconds = result.DurationSeconds;
+                        if (string.IsNullOrEmpty(result.ThumbnailPath))
+                        {
+
+                        }
                         video.ThumbnailPath = result.ThumbnailPath;
                         video.Status = VideoStatus.Ready;
                         video.UpdatedAt = DateTime.UtcNow;

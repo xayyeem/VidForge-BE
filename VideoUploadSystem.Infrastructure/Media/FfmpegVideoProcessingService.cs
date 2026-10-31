@@ -18,7 +18,7 @@ namespace VideoUploadSystem.Infrastructure.Media
             _options = options.Value;
         }
 
-        public async Task<VideoProcessingResult> ProcessAsync(Guid videoId, string storagePath, CancellationToken cancellationToken)
+        public async Task<VideoProcessingResult> ProcessAsync(Guid videoId, string storagePath, string? existingThumbnailPath,CancellationToken cancellationToken)
         {
             if (!File.Exists(storagePath))
             {
@@ -44,28 +44,16 @@ namespace VideoUploadSystem.Infrastructure.Media
                 throw new InvalidOperationException("Could not extract video duration.");
             }
 
-            var thumbnailPath = await GenerateThumbnailAsync(videoId, storagePath, cancellationToken);
-
-            //await RunProcessAsync(_options.FfmpegPath,
-            //new[]
-            //{
-            //    "-hide_banner",
-            //    "-loglevel", "error",
-            //    "-nostdin",
-            //    "-y",
-            //    "-i", storagePath,
-            //    "-map", "0:v:0",
-            //    "-frames:v", "1",
-            //    "-vf", "scale=640:-1",
-            //    "-threads", "1",
-            //    thumbnailPath
-            //},
-            //cancellationToken);
-            if (!File.Exists(thumbnailPath) ||
-            new FileInfo(thumbnailPath).Length == 0)
+            string thumbnailPath; //= await GenerateThumbnailAsync(videoId, storagePath, cancellationToken);
+            if (!string.IsNullOrWhiteSpace(existingThumbnailPath) && File.Exists(existingThumbnailPath))
             {
-                throw new InvalidOperationException("Thumbnail generation failed.");
+                thumbnailPath = existingThumbnailPath;
             }
+            else
+            {
+                thumbnailPath = await GenerateThumbnailAsync(videoId, storagePath, cancellationToken);
+            }
+
             return new VideoProcessingResult
             {
                 DurationSeconds = durationSeconds,
@@ -152,7 +140,10 @@ namespace VideoUploadSystem.Infrastructure.Media
         {
             Directory.CreateDirectory(_options.ThumbnailOutputDirectory);
             var thumbnailPath = Path.Combine(_options.ThumbnailOutputDirectory, $"{videoId}.jpg");
-
+            if (File.Exists(thumbnailPath))
+            {
+                return "";
+            }
             await RunProcessAsync(_options.FfmpegPath,
             new[]
             {

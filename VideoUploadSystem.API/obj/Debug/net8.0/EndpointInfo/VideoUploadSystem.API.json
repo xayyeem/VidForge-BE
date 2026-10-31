@@ -5,6 +5,59 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Thumbnails/generate": {
+      "post": {
+        "tags": [
+          "Thumbnails"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateThumbnailRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateThumbnailRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateThumbnailRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Videos/DeleteVideos": {
+      "delete": {
+        "tags": [
+          "Videos"
+        ],
+        "parameters": [
+          {
+            "name": "VideoId",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Videos/getvideos": {
       "get": {
         "tags": [
@@ -17,6 +70,13 @@
             "schema": {
               "type": "string",
               "default": "NewestFirst"
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -41,6 +101,14 @@
                   "Title": {
                     "type": "string"
                   },
+                  "Thumbnail": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "GeneratedThumbnailId": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
                   "Description": {
                     "type": "string"
                   },
@@ -52,6 +120,12 @@
               },
               "encoding": {
                 "Title": {
+                  "style": "form"
+                },
+                "Thumbnail": {
+                  "style": "form"
+                },
+                "GeneratedThumbnailId": {
                   "style": "form"
                 },
                 "Description": {
@@ -206,6 +280,20 @@
   },
   "components": {
     "schemas": {
+      "GenerateThumbnailRequest": {
+        "required": [
+          "prompt"
+        ],
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "maxLength": 2000,
+            "minLength": 10,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {

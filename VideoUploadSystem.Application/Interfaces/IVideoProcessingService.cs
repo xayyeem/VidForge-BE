@@ -8,7 +8,7 @@ namespace VideoUploadSystem.Application.Interfaces
 {
     public interface IVideoProcessingService
     {
-        Task<VideoProcessingResult> ProcessAsync(Guid videoId, string storagePath, CancellationToken cancellationToken);
+        Task<VideoProcessingResult> ProcessAsync(Guid videoId, string storagePath, string? existingThumbnailPath, CancellationToken cancellationToken);
     }
     public sealed class VideoProcessingResult
     {

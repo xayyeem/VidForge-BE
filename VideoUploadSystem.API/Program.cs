@@ -1,7 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using VideoUploadSystem.Application.Interfaces;
+using VideoUploadSystem.Infrastructure.Configuration;
 using VideoUploadSystem.Infrastructure.Data;
 using VideoUploadSystem.Infrastructure.Messaging;
+using VideoUploadSystem.Infrastructure.Services;
 using VideoUploadSystem.Infrastructure.Storage;
 
 
@@ -30,7 +33,29 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     );
 });
+builder.Services.Configure<GeminiOptions>(
+    builder.Configuration.GetSection("Gemini"));
 
+builder.Services.AddHttpClient<
+    IThumbnailGenerationService,
+    GeminiThumbnailGenerationService>((serviceProvider, client) =>
+    {
+        var options = serviceProvider
+            .GetRequiredService<IOptions<GeminiOptions>>()
+            .Value;
+
+        var apiKey = builder.Configuration["Gemini:ApiKey"];
+
+        if (string.IsNullOrWhiteSpace(apiKey))
+        {
+            throw new InvalidOperationException(
+                "Gemini API key is not configured.");
+        }
+
+        client.BaseAddress = new Uri(options.BaseUrl);
+        client.Timeout = TimeSpan.FromMinutes(3);
+        client.DefaultRequestHeaders.Add("x-goog-api-key", apiKey);
+    });
 builder.Services.AddScoped<IVideoStorageService, LocalVideoStorageService>();
 
 var app = builder.Build();
